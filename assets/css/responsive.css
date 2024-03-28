@@ -1,0 +1,140 @@
+@media (max-width: 1200px) {
+  .btn {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 1180px) {
+  .container {
+    width: 90%;
+  }
+  .navbar_main {
+    gap: 20px;
+  }
+  header .header-logo img {
+    width: 140px;
+  }
+  .navbar > ul {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .navbar > ul > li > div {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1000px) {
+  header {
+    height: 80px;
+    justify-content: unset;
+    z-index: 6;
+  }
+  .navbar_main {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  .res_menu_toggle_btn {
+    display: flex;
+  }
+
+  .navbar > ul {
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+    min-height: 0px;
+  }
+  .navbar > ul > li > div {
+    border-bottom: 1px solid #cbd7ff;
+  }
+  .navbar > ul > li > div {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .navbar > ul > li > ul {
+    position: static;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    gap: 0;
+    padding: 0;
+    display: flex;
+    height: 0;
+    transition: height 0.3s linear;
+    overflow: hidden;
+  }
+  .navbar > ul > li > ul > li {
+    border-bottom: 1px solid #cbd7ff;
+    padding: 12px 40px;
+  }
+  .navbar > ul > li > ul > li > a {
+    max-width: max-content;
+    border: none;
+    font-size: 16px;
+  }
+
+  .navbar > ul > li.active > div > a,
+  .navbar > ul > li.active > div > i {
+    color: var(--violet);
+  }
+  .navbar > ul > li.active > div > i {
+    transform: rotate(-180deg);
+  }
+  .navbar > ul > li.active > ul {
+    height: var(--height);
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 600px) {
+  .navbar {
+    display: none;
+    position: fixed;
+    top: 80px;
+    display: flex;
+    background: white;
+    width: 100vw;
+    left: 0;
+    height: 0;
+    overflow: auto;
+    z-index: 5;
+    transition: height 0.3s linear;
+  }
+
+  header:has(.res_menu_toggle_btn.active) .navbar {
+    height: calc(100vh - 80px);
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    justify-content: space-between;
+  }
+  .navbar {
+    /* display: flex; */
+    /* height: auto; */
+    width: 100%;
+  }
+  .nav_btns {
+    margin-top: auto;
+  }
+  .navbar_main {
+    display: none;
+    position: fixed;
+    top: 80px;
+    display: flex;
+    background: white;
+    width: 100vw;
+    left: 0;
+    height: 0;
+    overflow: auto;
+    z-index: 5;
+    transition: height 0.3s linear;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  header:has(.res_menu_toggle_btn.active) .navbar_main {
+    height: calc(100vh - 80px);
+  }
+}
