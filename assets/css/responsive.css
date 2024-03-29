@@ -27,7 +27,23 @@
 }
 
 @media (max-width: 1000px) {
+  .header_section::after {
+    box-shadow: 0px 6px 7px 0px #0d194214;
+    content: "";
+    display: block;
+    width: 100%;
+    background: #ffffffcc;
+    backdrop-filter: blur(3px);
+    height: 5px;
+    background: inherit;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    z-index: 5;
+  }
   header {
+    box-shadow: none;
     height: 80px;
     justify-content: unset;
     z-index: 6;
@@ -103,7 +119,7 @@
   }
 
   header:has(.res_menu_toggle_btn.active) .navbar {
-    height: calc(100vh - 80px);
+    height: calc(100dvh - 80px);
   }
 }
 
@@ -135,6 +151,6 @@
     padding-bottom: 20px;
   }
   header:has(.res_menu_toggle_btn.active) .navbar_main {
-    height: calc(100vh - 80px);
+    height: calc(100dvh - 80px);
   }
 }
