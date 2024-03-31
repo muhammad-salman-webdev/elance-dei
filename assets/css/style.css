@@ -310,7 +310,9 @@ header .header-logo img {
   width: 50%;
 }
 .busin_grow_container > div img {
-  width: 100%;
+  width: 90%;
+  margin-right: auto;
+  display: block;
 }
 .busin_grow_container h1 {
   font-family: var(--ff-primary);
@@ -343,4 +345,22 @@ header .header-logo img {
 }
 .busin_grow_container ul li span {
   font-weight: 700;
+}
+/* Marquee Section [ Home Page | Section # 04 ] */
+.clients_marquee img {
+  width: 150px;
+}
+.clients_marquee div:has(img) {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.clients_marquee {
+  background: linear-gradient(
+    360deg,
+    rgba(248, 242, 239, 0.5) -5.8%,
+    #ffffff 28.58%,
+    #ffffff 62.44%,
+    rgba(248, 242, 239, 0.55) 100%
+  );
 }

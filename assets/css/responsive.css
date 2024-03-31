@@ -34,6 +34,9 @@
     width: 40%;
     margin-right: auto;
   }
+  .busin_grow_container > div img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -229,6 +232,9 @@
   }
   .busin_grow_container > div img {
     width: 80%;
+  }
+  .clients_marquee img {
+    width: 120px;
   }
 }
 
