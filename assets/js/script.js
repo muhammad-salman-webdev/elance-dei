@@ -26,7 +26,7 @@ function setHeightOfSubMenu(menuItem) {
   subMenuItems.forEach((subMenuItem) => {
     subMenuHeight += subMenuItem.offsetHeight;
   });
-
+  subMenuHeight += 5;
   menuItem
     .querySelector("ul")
     .style.setProperty("--height", subMenuHeight + "px");
