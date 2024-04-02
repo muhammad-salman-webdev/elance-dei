@@ -548,3 +548,55 @@ header .header-logo img {
 .h_services .h_service.green a:hover {
   color: var(--green);
 }
+/* Contact Us Section [ Home Page | Section # 07 ] */
+.contact_section {
+  padding: 50px 0;
+  background: var(--cream);
+  overflow: hidden;
+}
+.contact_section .gradient_1 {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #e0d1ff 0%,
+    rgba(224, 209, 255, 0) 100%
+  );
+  width: 1200px;
+  height: 900px;
+  position: absolute;
+  top: 0px;
+}
+.h_contact_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.h_contact_container > h1 {
+  font-family: var(--ff-primary);
+  font-size: 42px;
+  font-weight: 500;
+}
+.h_contact_container > h3 {
+  font-family: var(--ff-primary);
+  font-size: 36px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.h_contact_container .img {
+  width: 40%;
+}
+.h_contact_container .img img {
+  width: 80%;
+}
+.h_contact_container .c_form {
+  width: 40%;
+  min-width: 500px;
+}
+
+.h_contact_container .h_contact_details {
+  display: flex;
+  justify-content: center;
+  margin: 50px 00 0 0;
+  align-items: center;
+}

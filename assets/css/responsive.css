@@ -48,6 +48,12 @@
   .h_services .h_service {
     width: 50%;
   }
+  .h_contact_container .c_form {
+    min-width: 400px;
+  }
+  .h_contact_container > h1 {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -142,6 +148,17 @@
   .clients_reviews_container > h1 {
     font-size: 36px;
   }
+  .h_contact_container > h1 {
+    font-size: 38px;
+  }
+  .h_contact_container > h3 {
+    font-size: 32px;
+    margin: 10px 0;
+  }
+  .contact_section .gradient_1 {
+    height: 700px;
+    left: -100px;
+  }
 }
 
 @media (max-width: 1000px) and (min-width: 601px) {
@@ -191,6 +208,18 @@
   .h_services .h_service {
     width: 45%;
   }
+  .h_contact_container > h1 {
+    font-size: 36px;
+  }
+  .h_contact_container .h_contact_details {
+    justify-content: space-between;
+  }
+  .h_contact_container .img {
+    width: 40%;
+  }
+  .h_contact_container .img img {
+    width: 100%;
+  }
 }
 @media (max-width: 800px) {
   .hero_container > div > h1 {
@@ -236,6 +265,19 @@
   .h_services_container > h1 {
     font-size: 32px;
   }
+  .h_contact_container > h1 {
+    font-size: 34px;
+  }
+  .h_contact_container .h_contact_details {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .h_contact_container .img {
+    width: 60%;
+  }
+  .h_contact_container .c_form {
+    width: 70%;
+  }
 }
 @media (max-width: 710px) {
   .hero_container {
@@ -262,6 +304,12 @@
   }
   .clients_reviews_container > h1 {
     font-size: 30px;
+  }
+  .h_services_container > h1 {
+    font-size: 30px;
+  }
+  .h_contact_container > h1 {
+    font-size: 32px;
   }
 }
 @media (max-width: 600px) {
@@ -313,6 +361,15 @@
   .clients_reviews_container > h1 {
     font-size: 28px;
   }
+  .h_contact_container > h1 {
+    font-size: 30px;
+  }
+  .h_contact_container > h3 {
+    font-size: 28px;
+  }
+  .h_contact_container .c_form {
+    width: 90%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -345,12 +402,27 @@
   .client_reviews > .client_review {
     width: 90%;
   }
+  .h_services .h_service {
+    width: 100%;
+  }
+  .h_contact_container > h1 {
+    font-size: 26px;
+  }
+  .h_contact_container .img {
+    width: 70%;
+  }
 }
 
 @media (max-width: 450px) {
   .hero_container > div > img {
     width: 100%;
     margin: 0;
+  }
+  .h_contact_container .c_form {
+    min-width: 100%;
+  }
+  .h_contact_container > h1 {
+    font-size: 24px;
   }
 }
 
@@ -373,5 +445,8 @@
   }
   .clients_reviews_container > h1 {
     font-size: 24px;
+  }
+  .h_contact_container .img {
+    width: 100%;
   }
 }
