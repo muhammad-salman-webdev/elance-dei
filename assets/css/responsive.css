@@ -282,4 +282,7 @@
   .busin_grow_container ul {
     padding-left: 40px;
   }
+  .clients_marquee img {
+    width: 110px;
+  }
 }

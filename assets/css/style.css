@@ -364,3 +364,52 @@ header .header-logo img {
     rgba(248, 242, 239, 0.55) 100%
   );
 }
+/* Clients Review Section [ Home Page | Section # 05 ] */
+.clients_reviews_section {
+  padding: 70px 0;
+  background: var(--cream);
+}
+
+.clients_reviews_section .gradient_1 {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #cbd7ff 0%,
+    rgba(203, 215, 255, 0) 100%
+  );
+  width: 500px;
+  height: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.clients_reviews_container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.clients_reviews_container > h1 {
+  font-family: var(--ff-primary);
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.clients_reviews_container .client_reviews {
+  display: flex;
+  gap: 50px;
+}
+.client_reviews > .client_review {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 6px 7px 0px #0d194214;
+  background: white;
+}
+.client_review .card_header {
+  display: flex;
+}
+
+.client_review .card_header img {
+  width: 100px;
+}
