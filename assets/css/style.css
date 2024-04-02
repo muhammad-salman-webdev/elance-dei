@@ -31,6 +31,7 @@
 /* ################## */
 /* Universal Selector */
 /* ################## */
+
 * {
   margin: 0;
   padding: 0;
@@ -360,13 +361,6 @@ header .header-logo img {
 }
 .clients_marquee {
   background: linear-gradient(
-    360deg,
-    rgba(248, 242, 239, 0.5) -5.8%,
-    #ffffff 28.58%,
-    #ffffff 62.44%,
-    rgba(248, 242, 239, 0.55) 100%
-  );
-  background: linear-gradient(
     to bottom,
     #f8f2ef 0% 15%,
     white 30% 70%,
@@ -599,4 +593,57 @@ header .header-logo img {
   justify-content: center;
   margin: 50px 00 0 0;
   align-items: center;
+}
+
+/* Banner Section [ Home Page | Section # 08 ] */
+.banner_section {
+  background: var(--cream);
+  padding: 50px 0;
+}
+
+.banner_section .banner_container {
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  align-items: stretch;
+  background: var(--d-blue);
+  box-shadow: 0px 6px 7px 0px #64646440;
+}
+
+.banner_container ._context {
+  position: relative;
+  color: white;
+  padding: 50px 0px 50px 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../images/girl_on_hills.png");
+  background-size: auto 120%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.banner_container ._context img {
+  position: absolute;
+  right: 40px;
+  bottom: 0px;
+}
+
+.banner_container ._context h3 {
+  font-family: var(--ff-primary);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.banner_container ._context p {
+  font-family: var(--ff-secondary);
+  font-size: 16px;
+  margin: 20px 0 0 0;
+  font-weight: 400;
+  line-height: 21.79px;
+}
+.banner_container ._context h3,
+.banner_container ._context p {
+  position: relative;
+  z-index: 2;
+  width: 580px;
 }

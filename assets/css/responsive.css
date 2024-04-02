@@ -54,6 +54,13 @@
   .h_contact_container > h1 {
     font-size: 40px;
   }
+  .banner_container ._context {
+    padding: 50px 0 50px 300px;
+  }
+  .banner_container ._context h3,
+  .banner_container ._context p {
+    width: 450px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -220,6 +227,14 @@
   .h_contact_container .img img {
     width: 100%;
   }
+  .banner_container ._context {
+    background-size: auto 100%;
+    padding: 50px 0 50px 200px;
+    background-position: -30px 0px;
+  }
+  .banner_container ._context img {
+    display: none;
+  }
 }
 @media (max-width: 800px) {
   .hero_container > div > h1 {
@@ -277,6 +292,15 @@
   }
   .h_contact_container .c_form {
     width: 70%;
+  }
+  .banner_container ._context h3,
+  .banner_container ._context p {
+    width: 100%;
+  }
+  .banner_container ._context {
+    background-size: 140px 100%;
+    padding: 50px 30px 50px 130px;
+    background-position: -25px 0px;
   }
 }
 @media (max-width: 710px) {
@@ -370,6 +394,12 @@
   .h_contact_container .c_form {
     width: 90%;
   }
+  .banner_container ._context {
+    padding: 40px 30px 40px 130px;
+  }
+  .banner_section {
+    padding: 40px 0 50px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -411,6 +441,18 @@
   .h_contact_container .img {
     width: 70%;
   }
+  .banner_container ._context {
+    padding: 30px 30px 30px 130px;
+  }
+  .banner_container ._context h3 {
+    font-size: 18px;
+  }
+  .banner_container ._context p {
+    font-size: 14px;
+  }
+  .banner_section {
+    padding: 30px 0 50px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -448,5 +490,12 @@
   }
   .h_contact_container .img {
     width: 100%;
+  }
+  .banner_section {
+    padding: 20px 0 50px;
+  }
+  .banner_container ._context {
+    background-position: -40px 0px;
+    padding: 30px 30px 30px 115px;
   }
 }
