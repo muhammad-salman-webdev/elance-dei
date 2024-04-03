@@ -169,6 +169,9 @@
     align-items: start;
     gap: 20px;
   }
+  .client_logos_section .swiper-slide img {
+    width: 140px;
+  }
 }
 
 @media (max-width: 1000px) and (min-width: 601px) {
@@ -331,6 +334,9 @@
     align-items: end;
     flex-direction: row;
   }
+  .client_logos_section .swiper-slide img {
+    width: 125px;
+  }
 }
 @media (max-width: 760px) {
   .banner_container ._context {
@@ -382,6 +388,9 @@
   }
   .h_contact_container > h1 {
     font-size: 32px;
+  }
+  .client_logos_section .swiper-slide img {
+    width: 120px;
   }
 }
 @media (max-width: 600px) {
@@ -521,6 +530,9 @@
   .banner_container ._context::before {
     left: 80px;
   }
+  .client_logos_section .swiper-slide img {
+    width: 110px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -571,6 +583,9 @@
   }
   .banner_container ._context {
     background-size: auto 120%;
+  }
+  .client_logos_section .swiper-slide img {
+    width: 100px;
   }
 }
 @media (max-width: 350px) {

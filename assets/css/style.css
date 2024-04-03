@@ -457,24 +457,34 @@ footer > .footer_calendar p {
   font-weight: 700;
 }
 /* Marquee Section [ Home Page | Section # 04 ] */
-.clients_marquee img {
-  width: 150px;
-}
-.clients_marquee div:has(img) {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-.clients_marquee img {
-  position: relative;
-}
-.clients_marquee {
+
+.client_logos_section {
   background: linear-gradient(
     to bottom,
     #f8f2ef 0% 15%,
     white 30% 70%,
     #f8f2ef 85% 100%
   );
+  overflow: hidden;
+}
+.client_logos_swiper {
+  width: 100%;
+  overflow: hidden;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.client_logos_swiper .swiper-slide {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  min-width: max-content;
+  justify-content: center;
+}
+.client_logos_section  .swiper-slide img {
+  width: 150px;
+}
+.client_logos_swiper .swiper-wrapper {
+  align-items: center;
 }
 /* Clients Review Section [ Home Page | Section # 05 ] */
 .clients_reviews_section {
