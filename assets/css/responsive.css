@@ -54,13 +54,7 @@
   .h_contact_container > h1 {
     font-size: 40px;
   }
-  .banner_container ._context {
-    padding: 50px 0 50px 300px;
-  }
-  .banner_container ._context h3,
-  .banner_container ._context p {
-    width: 450px;
-  }
+
   footer > .footer_calendar {
     min-width: 350px;
     width: 350px;
@@ -197,6 +191,11 @@
   }
 }
 
+@media (max-width: 970px) {
+  .banner_container ._context {
+    padding: 50px 150px 50px 230px;
+  }
+}
 @media (max-width: 900px) {
   .hero_container > div > h1 {
     font-size: 38px;
@@ -236,11 +235,6 @@
   .h_contact_container .img img {
     width: 100%;
   }
-  .banner_container ._context {
-    background-size: auto 100%;
-    padding: 50px 0 50px 200px;
-    background-position: -30px 0px;
-  }
   .banner_container ._context img {
     display: none;
   }
@@ -249,6 +243,9 @@
   }
   .footer_body {
     justify-content: space-between;
+  }
+  .banner_container ._context {
+    padding: 50px 40px 50px 230px;
   }
 }
 @media (max-width: 800px) {
@@ -312,11 +309,7 @@
   .banner_container ._context p {
     width: 100%;
   }
-  .banner_container ._context {
-    background-size: 140px 100%;
-    padding: 50px 30px 50px 130px;
-    background-position: -25px 0px;
-  }
+
   footer {
     flex-direction: column-reverse;
   }
@@ -337,6 +330,25 @@
     justify-content: space-between;
     align-items: end;
     flex-direction: row;
+  }
+}
+@media (max-width: 760px) {
+  .banner_container ._context {
+    position: relative;
+    padding: 50px 40px 50px 130px;
+  }
+  .banner_container ._context::before {
+    content: "";
+    background: var(--d-blue);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+  }
+  .banner_container ._context {
+    background-size: auto 120%;
+    background-position: -70px -30px;
   }
 }
 @media (max-width: 710px) {
@@ -430,9 +442,6 @@
   .h_contact_container .c_form {
     width: 90%;
   }
-  .banner_container ._context {
-    padding: 40px 30px 40px 130px;
-  }
   .banner_section {
     padding: 40px 0 50px;
   }
@@ -440,6 +449,10 @@
     flex-direction: column;
     align-items: start;
     gap: 20px;
+  }
+
+  .banner_container ._context {
+    background-position: -90px -60px;
   }
 }
 
@@ -482,9 +495,6 @@
   .h_contact_container .img {
     width: 70%;
   }
-  .banner_container ._context {
-    padding: 30px 30px 30px 130px;
-  }
   .banner_container ._context h3 {
     font-size: 18px;
   }
@@ -503,6 +513,13 @@
   }
   .footer_lower .footer_logo img {
     width: 160px;
+  }
+  .banner_container ._context {
+    padding: 20px 30px 30px 100px;
+    background-size: auto 130%;
+  }
+  .banner_container ._context::before {
+    left: 80px;
   }
 }
 
@@ -548,12 +565,16 @@
   .banner_section {
     padding: 20px 0 50px;
   }
-  .banner_container ._context {
-    background-position: -40px 0px;
-    padding: 30px 30px 30px 115px;
-  }
   footer > .footer_calendar {
     min-width: 100%;
     width: 100%;
+  }
+  .banner_container ._context {
+    background-size: auto 120%;
+  }
+}
+@media (max-width: 350px) {
+  .banner_container ._context {
+    background-position: -120px -60px;
   }
 }

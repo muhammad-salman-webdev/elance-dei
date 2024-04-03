@@ -722,19 +722,21 @@ footer > .footer_calendar p {
 .banner_container ._context {
   position: relative;
   color: white;
-  padding: 50px 0px 50px 230px;
+  padding: 50px 150px 50px 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("../images/girl_on_hills.png");
-  background-size: auto 120%;
-  background-repeat: no-repeat;
   width: 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
 }
 .banner_container ._context img {
   position: absolute;
   right: 40px;
   bottom: 0px;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .banner_container ._context h3 {
@@ -750,9 +752,9 @@ footer > .footer_calendar p {
   font-weight: 400;
   line-height: 21.79px;
 }
+
 .banner_container ._context h3,
 .banner_container ._context p {
   position: relative;
   z-index: 2;
-  width: 580px;
 }
