@@ -515,7 +515,6 @@ footer > .footer_calendar p {
 .busin_grow_container ul li {
   position: relative;
   font-size: 18px;
-  font-weight: 400;
 }
 
 .busin_grow_container ul li::before {
@@ -533,6 +532,10 @@ footer > .footer_calendar p {
 
 .busin_grow_container ul li span {
   font-weight: 700;
+}
+.busin_grow_container ul li p {
+  display: inline;
+  font-weight: 400;
 }
 
 /* Marquee Section [ Home Page | Section # 04 ] */
