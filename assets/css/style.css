@@ -16,6 +16,7 @@
 
   /* Green Variations */
   --green: #85a627;
+  --green-2: #5e8000;
   --d-green: #98ba39;
   --l-green: #dce8ba;
 
@@ -518,7 +519,7 @@ footer > .footer_calendar p {
 }
 
 .busin_grow_container ul li::before {
-  background-image: url(../images/logo/elance_bult.png);
+  background-image: url(../images/vectors/a_vector_purple.png);
   content: "";
   background-size: contain;
   background-repeat: no-repeat;
