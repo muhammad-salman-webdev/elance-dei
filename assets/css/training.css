@@ -1,22 +1,3 @@
-:root {
-  /* Light Variations */
-  --cream: #f8f2ef;
-  /* Blue Variations */
-  --blue: #cbd7ff;
-  --d-blue: #0d1942;
-  /* Green Variations */
-  --green: #85a627;
-  --green-2: #5e8000;
-  --d-green: #98ba39;
-  --l-green: #dce8ba;
-  /* Violet Variations */
-  --violet: #623fab;
-  --l-violet: #e0d1ff;
-  /* Font Families Variations */
-  --ff-primary: "ClashDisplay-Variable", sans-serif;
-  --ff-secondary: "Noto Sans", system-ui;
-}
-
 .h_hero_section {
   background: var(--cream);
   overflow: hidden;

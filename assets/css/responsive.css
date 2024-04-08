@@ -21,6 +21,15 @@
   .navbar>ul {
     gap: 15px;
   }
+
+  .cont-left_img-right-container .left_cont-container h1 {
+    font-size: 44px;
+  }
+
+  .cont-left_img-right-container .left_cont-container h2,
+  .img-left_cont-right-container .right_cont-container h1 {
+    font-size: 38px;
+  }
 }
 
 @media (max-width: 1080px) {
@@ -70,6 +79,15 @@
   footer>.footer_calendar {
     min-width: 350px;
     width: 350px;
+  }
+
+  .cont-left_img-right-container .left_cont-container h1 {
+    font-size: 40px;
+  }
+
+  .cont-left_img-right-container .left_cont-container h2,
+  .img-left_cont-right-container .right_cont-container h1 {
+    font-size: 34px;
   }
 }
 
@@ -202,6 +220,15 @@
   .client_logos_section .swiper-slide img {
     width: 140px;
   }
+
+  .cont-left_img-right-container .left_cont-container h1 {
+    font-size: 38px;
+  }
+
+  .cont-left_img-right-container .left_cont-container h2,
+  .img-left_cont-right-container .right_cont-container h1 {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 1000px) and (min-width: 601px) {
@@ -305,6 +332,15 @@
     width: 900px;
     height: 1100px;
     left: -50px;
+  }
+
+  .cont-left_img-right-container .left_cont-container h1 {
+    font-size: 36px;
+  }
+
+  .cont-left_img-right-container .left_cont-container h2,
+  .img-left_cont-right-container .right_cont-container h1 {
+    font-size: 28px;
   }
 }
 
@@ -419,6 +455,48 @@
   .single_form_container h2 {
     font-size: 36px;
   }
+
+  .cont-left_img-right-container,
+  .img-left_cont-right-container {
+    align-items: unset;
+    flex-direction: column;
+  }
+
+  .cont-left_img-right-container {
+    flex-direction: column-reverse;
+  }
+
+  .cont-left_img-right-container .left_cont-container,
+  .img-left_cont-right-container .right_cont-container,
+  .cont-left_img-right-container .right_img-container,
+  .img-left_cont-right-container .left_img-container {
+    width: 100%;
+  }
+
+  .cont-left_img-right-container .right_img-container,
+  .img-left_cont-right-container .left_img-container {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .cont-left_img-right-container,
+  .img-left_cont-right-container {
+    gap: 50px;
+  }
+
+  .cont-left_img-right-container .left_cont-container h1 {
+    font-size: 35px;
+  }
+
+  .cont-left_img-right-container.h1__top {
+    padding-top: 80px;
+  }
+
+  .cont-left_img-right-container.h1__top .left_cont-container h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
 @media (max-width: 760px) {
@@ -489,6 +567,15 @@
   }
 
   .single_form_container h2 {
+    font-size: 34px;
+  }
+
+  .cont-left_img-right-container .right_img-container,
+  .img-left_cont-right-container .left_img-container {
+    width: 70%;
+  }
+
+  .cont-left_img-right-container .left_cont-container h1 {
     font-size: 34px;
   }
 }
@@ -591,6 +678,20 @@
   .single_form_container p {
     width: 90%
   }
+
+  .cont-left_img-right-container .right_img-container,
+  .img-left_cont-right-container .left_img-container {
+    width: 80%;
+  }
+
+  .cont-left_img-right-container .left_cont-container h1 {
+    font-size: 32px;
+  }
+
+  .cont-left_img-right-container .left_cont-container h2,
+  .img-left_cont-right-container .right_cont-container h1 {
+    font-size: 27px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -685,6 +786,20 @@
   .single_form_container h2 {
     font-size: 28px;
   }
+
+  .cont-left_img-right-container .right_img-container,
+  .img-left_cont-right-container .left_img-container {
+    width: 90%;
+  }
+
+  .cont-left_img-right-container .left_cont-container h1 {
+    font-size: 31px;
+  }
+
+  .cont-left_img-right-container .left_cont-container h2,
+  .img-left_cont-right-container .right_cont-container h1 {
+    font-size: 26px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -703,6 +818,10 @@
 
   .footer_content .footer_body {
     flex-direction: column;
+  }
+
+  .cont-left_img-right-container .left_cont-container h1 {
+    font-size: 30px;
   }
 }
 
@@ -754,6 +873,11 @@
 
   .single_form_container h2 {
     font-size: 26px;
+  }
+
+  .cont-left_img-right-container .right_img-container,
+  .img-left_cont-right-container .left_img-container {
+    width: 100%;
   }
 }
 
