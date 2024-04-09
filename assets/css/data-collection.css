@@ -11,3 +11,28 @@
 .con_services_section .h_services_container {
     gap: 50px;
 }
+
+.dcs_hero_section .gradient_1 {
+    background: radial-gradient(50.11% 50.11% at 50.11% 49.89%, #DCE8BA 0%, #DCE8BA 0.01%, rgba(220, 232, 186, 0) 100%);
+    width: 900px;
+    height: 2200px;
+    position: absolute;
+    top: -400px;
+    left: 100px;
+}
+
+@media (max-width:800px) {
+    .dcs_hero_section .gradient_1 {
+        height: 2900px;
+        right: 100px;
+        left: unset;
+    }
+}
+
+@media (max-width:600px) {
+    .dcs_hero_section .gradient_1 {
+        height: 3200px;
+        right: -100px;
+        top: -850px;
+    }
+}

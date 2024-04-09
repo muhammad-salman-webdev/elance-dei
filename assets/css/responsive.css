@@ -561,6 +561,29 @@
   .dc_hero_section .img-left_cont-right-container {
     margin-top: 0px;
   }
+
+  .section_row {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .section_row .section-col-50 {
+    width: 100%;
+  }
+
+  .section_row.col-reverse-on-lablet {
+    flex-direction: column-reverse;
+  }
+
+  .section_row .section-col-50 ._img img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .section_row .section-col-50 ._img.sm_img img {
+    width: 80%;
+  }
 }
 
 @media (max-width: 760px) {
@@ -784,6 +807,10 @@
   .con_services_section ._H1 {
     line-height: 1.4;
   }
+
+  .section_row .section-col-50 ._img img {
+    width: 90%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -903,6 +930,10 @@
   .cont-left_img-right-container .left_cont-container h2,
   .img-left_cont-right-container .right_cont-container h1 {
     font-size: 26px;
+  }
+
+  .section_row .section-col-50 ._img img {
+    width: 100%;
   }
 }
 
