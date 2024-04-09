@@ -149,7 +149,6 @@
   header {
     box-shadow: none;
     height: 80px;
-    justify-content: unset;
     z-index: 6;
   }
 
@@ -264,6 +263,10 @@
   .cont-left_img-right-container .left_cont-container h2,
   .img-left_cont-right-container .right_cont-container h1 {
     font-size: 32px;
+  }
+
+  .header_section:has(.res_menu_toggle_btn.active) {
+    background: white;
   }
 }
 
