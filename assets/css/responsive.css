@@ -6,6 +6,18 @@
 }
 
 @media (max-width: 1180px) {
+  ._H1 {
+    font-size: 46px;
+  }
+
+  ._H2 {
+    font-size: 38px;
+  }
+
+  ._H3 {
+    font-size: 29px;
+  }
+
   .container {
     width: 90%;
   }
@@ -33,6 +45,18 @@
 }
 
 @media (max-width: 1080px) {
+  ._H1 {
+    font-size: 42px;
+  }
+
+  ._H2 {
+    font-size: 36px;
+  }
+
+  ._H3 {
+    font-size: 28px;
+  }
+
   .navbar>ul>li>div {
     font-size: 16px;
   }
@@ -92,6 +116,18 @@
 }
 
 @media (max-width: 1000px) {
+  ._H1 {
+    font-size: 40px;
+  }
+
+  ._H2 {
+    font-size: 34px;
+  }
+
+  ._H3 {
+    font-size: 27px;
+  }
+
   .header_section::after {
     box-shadow: 0px 6px 7px 0px #0d194214;
     content: "";
@@ -258,6 +294,18 @@
 }
 
 @media (max-width: 900px) {
+  ._H1 {
+    font-size: 38px;
+  }
+
+  ._H2 {
+    font-size: 32px;
+  }
+
+  ._H3 {
+    font-size: 26px;
+  }
+
   .hero_container>div>h1 {
     font-size: 38px;
   }
@@ -345,8 +393,20 @@
 }
 
 @media (max-width: 800px) {
-  .hero_container>div>h1 {
-    font-size: 34px;
+  ._H1 {
+    font-size: 36px;
+  }
+
+  ._H2 {
+    font-size: 30px;
+  }
+
+  ._H3 {
+    font-size: 25px;
+  }
+
+  ._H4 {
+    font-size: 20px;
   }
 
   .hero_container>div>img {
@@ -497,6 +557,10 @@
     top: 0;
     left: 0;
   }
+
+  .dc_hero_section .img-left_cont-right-container {
+    margin-top: 0px;
+  }
 }
 
 @media (max-width: 760px) {
@@ -522,8 +586,20 @@
 }
 
 @media (max-width: 710px) {
-  .hero_container {
-    flex-direction: column-reverse;
+  ._H1 {
+    font-size: 34px;
+  }
+
+  ._H2 {
+    font-size: 28px;
+  }
+
+  ._H3 {
+    font-size: 24px;
+  }
+
+  ._H4 {
+    font-size: 20px;
   }
 
   .hero_container>div {
@@ -581,8 +657,20 @@
 }
 
 @media (max-width: 600px) {
-  header {
-    justify-content: space-between;
+  ._H1 {
+    font-size: 32px;
+  }
+
+  ._H2 {
+    font-size: 27px;
+  }
+
+  ._H3 {
+    font-size: 24px;
+  }
+
+  ._H4 {
+    font-size: 20px;
   }
 
   .navbar {
@@ -692,9 +780,25 @@
   .img-left_cont-right-container .right_cont-container h1 {
     font-size: 27px;
   }
+
+  .con_services_section ._H1 {
+    line-height: 1.4;
+  }
 }
 
 @media (max-width: 500px) {
+  ._H1 {
+    font-size: 30px;
+  }
+
+  ._H2 {
+    font-size: 26px;
+  }
+
+  ._H3 {
+    font-size: 24px;
+  }
+
   .hero_container>div>img {
     width: 80%;
     margin: 0 0 0 10%;

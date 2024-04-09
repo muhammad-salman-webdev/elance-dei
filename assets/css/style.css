@@ -89,6 +89,47 @@ html {
   color: white;
 }
 
+/* H1 ---- H6 */
+._H1,
+._H2,
+._H3 {
+  font-family: var(--ff-primary);
+  line-height: 1.5;
+}
+
+._H1 {
+  font-size: 50px;
+}
+
+._H2 {
+  font-size: 42px;
+}
+
+._H3 {
+  font-size: 30px;
+}
+
+.p,
+.span_p p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.bold_span,
+.span_p span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.span_p p {
+  display: inline;
+  line-height: 24px;
+}
+
+.section-row {}
+
 /* ########################### */
 /* Regular Classes and Styling */
 /* ########################### */
@@ -950,6 +991,10 @@ footer>.footer_calendar p {
 
 .single_form_container .single_form {
   width: 580px;
+  margin-top: 50px;
+}
+
+.dc_hero_section .img-left_cont-right-container {
   margin-top: 50px;
 }
 

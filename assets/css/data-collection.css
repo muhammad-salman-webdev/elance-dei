@@ -1,0 +1,13 @@
+.con_services_section .h_services_container>h1 {
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.con_services_section .h_services_container>a {
+    margin: 0 auto;
+}
+
+.con_services_section .h_services_container {
+    gap: 50px;
+}
