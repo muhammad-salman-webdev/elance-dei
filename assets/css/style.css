@@ -216,11 +216,13 @@ header .header-logo img {
   display: flex;
   align-items: center;
   gap: 60px;
+  gap: 10px;
 }
 
 .navbar>ul {
   display: flex;
   gap: 30px;
+  gap: 20px;
 }
 
 .navbar>ul>li {
@@ -242,6 +244,7 @@ header .header-logo img {
   padding: 0 3px;
   transition: all 0.2s linear;
   font-weight: 600;
+  min-width: max-content;
 }
 
 .navbar>ul>li>div>i {
@@ -302,6 +305,11 @@ header .header-logo img {
 .navbar>ul>li>ul>li>a.active,
 .nav_btns .lang_btn:hover {
   color: var(--violet);
+}
+
+.nav_btns .lang_btn {
+  text-transform: uppercase;
+  user-select: none;
 }
 
 .navbar>ul>li:hover>ul {

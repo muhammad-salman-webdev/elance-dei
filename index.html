@@ -122,9 +122,11 @@
             </div>
             <!-- Navbar Buttons -->
             <div class="nav_btns">
-              <a href="#" class="btn">Contact us</a>
-              <a href="#" class="btn btn-light">Sign In</a>
-              <a class="lang_btn">FR</a>
+              <a href="#" class="btn" fr-lang="Contactez-nous">Contact us</a>
+              <a href="#" class="btn btn-light" fr-lang="Se connecter">
+                Sign In
+              </a>
+              <a class="lang_btn" id="change_lang_btn" prefferedLang="fr">FR</a>
             </div>
           </div>
           <!-- Resposive Mobile Menu Btn -->
@@ -159,10 +161,16 @@
         <!-- Actuall Content -->
         <div class="hero_container">
           <div>
-            <h1>
+            <h1
+              fr-lang="Une DEI simple, efficace et mesurable pour votre organisation">
               Make DEI simple, efficient and measurable for your organization
             </h1>
-            <a href="#" class="btn btn-padding">Let's leap forward together!</a>
+            <a
+              href="#"
+              class="btn btn-padding"
+              fr-lang="Obtenez une consultation gratuite !">
+              Let's leap forward together!
+            </a>
           </div>
           <div>
             <img src="assets/images/home_hero_img.png" alt="#" />
@@ -193,37 +201,56 @@
         <div class="busin_grow_container">
           <!-- Img -->
           <div>
-            <img src="assets/images/business_stats_eng.png" alt="#  " />
+            <img
+              src="assets/images/eng_images/business_stats.png"
+              change-image-lang
+              alt="#" />
           </div>
           <!-- Heading + List -->
           <div>
-            <h1> Elance, where inclusion meets business growth </h1>
+            <h1 fr-lang="Elance, où l'inclusion rencontre la croissance ">
+              Elance, where inclusion meets business growth
+            </h1>
             <ul class="list">
               <li>
-                <span> DEI improves employee retention:</span>
-                <p>
+                <span fr-lang="L'EDI améliore la rétention des employés: ">
+                  DEI improves employee retention:
+                </span>
+                <p
+                  fr-lang="Les lieux de travail inclusifs entraînent une plus grande satisfaction au travail et une plus grande loyauté, ce qui réduit les coûts de rotation et augmente la productivité.">
                   Inclusive workplaces lead to higher job satisfaction and
                   loyalty, which reduces turnover costs and increases
                   productivity.
                 </p>
               </li>
               <li>
-                <span>DEI improves recruiting / employer brand:</span>
-                <p>
+                <span fr-lang="L'EDI améliore le recrutement:">
+                  DEI improves recruiting / employer brand:
+                </span>
+                <p
+                  fr-lang="Les organisations reconnues pour leurs efforts en matière de EDI attirent un plus large éventail de candidats et améliorent leur image de marque en tant qu'employeur. ">
                   Organizations known for their DEI efforts attract a broader
                   range of job candidates and improves your employer brand.
                 </p>
               </li>
               <li>
-                <span> DEI improves profits and innovation revenues:</span>
-                <p>
+                <span fr-lang="L'EDI améliore les bénéfices et l'innovation :">
+                  DEI improves profits and innovation revenues:
+                </span>
+                <p
+                  fr-lang=" Des équipes diversifiées apportent une variété de perspectives, ce qui conduit à des solutions plus créatives et innovantes, ce qui a été lié à une augmentation de la rentabilité et de la croissance du chiffre d'affaires.">
                   Diverse teams bring a variety of perspectives, leading to more
                   creative and innovative solutions which has been linked to
                   increased profitability and revenue growth.
                 </p>
               </li>
             </ul>
-            <a href="#" class="btn btn-padding">Grow your business with EDI </a>
+            <a
+              href="#"
+              class="btn btn-padding"
+              fr-lang="Développez votre entreprise grâce à l'EDI ">
+              Grow your business with EDI
+            </a>
           </div>
         </div>
       </div>
