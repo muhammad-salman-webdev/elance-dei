@@ -1,0 +1,80 @@
+.bnch_hero_section ._H2 {
+    margin-bottom: 40px;
+}
+
+.process_section.bnch_process_section {
+    padding: 80px 0;
+}
+
+.bnch_single_form.single_form_section .gradient_1 {
+    background: radial-gradient(50.11% 50.11% at 50.11% 49.89%, #DCE8BA 0%, #DCE8BA 0.01%, rgba(220, 232, 186, 0) 100%);
+}
+
+/* Benchmarking Process and Ethics  */
+.bench_ethics_section .gradient_1 {
+    background: radial-gradient(50% 50% at 50% 50%, #E0D1FF 0%, rgba(224, 209, 255, 0) 100%);
+    width: 900px;
+    height: 1500px;
+    left: 100px;
+    position: absolute;
+    top: -200px;
+}
+
+.bench_ethics_container {
+    position: relative;
+}
+
+.bnch_process_section .our_process-container ._process_steps li {
+    width: 24%;
+    height: 200px;
+}
+
+.bnch_process_section .our_process-container ._process_steps li div {
+    margin: auto 0 20px 0;
+}
+
+.bnch_process_section .our_process-container ._process_steps li div img {
+    width: 60px;
+}
+
+.bench_ethics_section ._center_content {
+    margin: 100px auto 80px;
+}
+
+@media (max-width: 1100px) {
+    .bnch_process_section .our_process-container ._process_steps li {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .bnch_process_section .our_process-container ._process_steps li {
+        width: 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    .bnch_process_section .our_process-container ._process_steps li {
+        height: unset;
+        width: 100%;
+    }
+
+    .bnch_process_section .our_process-container ._process_steps li div {
+        margin: 0;
+    }
+
+    .bnch_process_section .our_process-container ._process_steps li div img {
+        width: 60%;
+    }
+
+    .bench_ethics_section .gradient_1 {
+        height: 3000px;
+        left: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .bench_ethics_section .gradient_1 {
+        left: 00px;
+    }
+}

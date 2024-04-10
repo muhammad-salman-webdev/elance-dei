@@ -587,6 +587,14 @@
   .section_row .section-col-50 ._img.sm_img img {
     width: 80%;
   }
+
+  .hero_container {
+    flex-direction: column-reverse;
+  }
+
+  .hero_container>div {
+    width: 100%;
+  }
 }
 
 @media (max-width: 760px) {
@@ -830,8 +838,8 @@
   }
 
   .hero_container>div>img {
-    width: 80%;
-    margin: 0 0 0 10%;
+    width: 90%;
+    margin: 0 0 0 8%;
   }
 
   .hero_container>div>h1 {

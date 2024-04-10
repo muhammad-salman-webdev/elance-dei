@@ -159,10 +159,31 @@ html {
   width: 100%;
 }
 
+.section_row .section-col-50 ._img.lg_img_left img {
+  width: 90%;
+  margin-right: auto;
+}
+
+.section_row .section-col-50 ._img.lg_img_right img {
+  width: 90%;
+  margin-left: auto;
+}
+
 ._section {
   padding: 50px 0;
   overflow: hidden;
   background: var(--cream);
+}
+
+._center_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  margin-bottom: 20px;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 /* ########################### */
