@@ -308,6 +308,10 @@
   width: 32px;
 }
 
+.workshop_tranings .btn {
+  margin: 10px 0 00 0;
+}
+
 .t_banner_section ._context {
   padding-left: 270px;
 }
@@ -376,6 +380,7 @@
 
 .ts_hero_content .ts_img_ul ul li {
   position: relative;
+  font-weight: 400;
 }
 
 .ts_hero_content .ts_img_ul ul li::before {

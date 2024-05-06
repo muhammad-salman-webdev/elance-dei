@@ -454,6 +454,24 @@ footer>.footer_content {
   width: 180px;
 }
 
+.footer_lower .footer_logo .contact_email {
+  font-family: var(--ff-secondary);
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin: 7px 0 14px;
+}
+
+.footer_lower .footer_logo .contact_email i {
+  margin: 2px 5px 0 0;
+}
+
+.footer_lower .footer_logo .contact_email a {
+  font-weight: 400;
+  color: var(--violet);
+}
+
 .footer_lower .footer_logo p {
   font-family: var(--ff-secondary);
   font-size: 14px;
