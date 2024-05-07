@@ -85,6 +85,7 @@ html {
 }
 
 .btn:hover,
+.btn.active,
 .btn-light:hover {
   border-color: var(--violet);
   background: var(--violet);
