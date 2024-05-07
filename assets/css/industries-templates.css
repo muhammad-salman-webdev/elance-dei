@@ -1,5 +1,5 @@
 .ind_hero_section .left_cont-container {
-    width: 55%;
+    width: 57%;
 }
 
 .ind_hero_section .right_img-container {
@@ -12,4 +12,241 @@
 
 .ind_hero_section .right_cont-container {
     width: 60%;
+}
+
+.right_cont-container>div>span {
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.52px;
+}
+
+.ind_sectors_banner {
+    display: flex;
+    background: var(--violet-2);
+    border-radius: 20px;
+    padding: 20px 20px 0 190px;
+    gap: 30px;
+    box-shadow: 0px 7.68px 8.96px 0px #0D194214;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ind_sectors_banner img {
+    width: 140px;
+    bottom: -1px;
+    position: absolute;
+    left: 20px;
+}
+
+.ind_sectors_banner .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.ind_sectors_banner h3._H3 {
+    font-size: 30px;
+}
+
+.ind_sectors_banner ul {
+    padding-bottom: 20px;
+}
+
+.ind_sectors_banner ul li {
+    position: relative;
+    font-family: var(--ff-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    display: inline;
+}
+
+.ind_sectors_banner ul li:not(:last-child)::after {
+    content: '|';
+    margin: 0 8px;
+}
+
+/* Industries 2nd Section */
+.ind_status_section .gradient_1 {
+    background: radial-gradient(50.11% 50.11% at 50.11% 49.89%, #DCE8BA 0%, #DCE8BA 0.01%, rgba(220, 232, 186, 0) 100%);
+    width: 1100px;
+    height: 1100px;
+    position: absolute;
+    top: -240px;
+}
+
+.ind_status_container {
+    position: relative;
+    z-index: 2;
+}
+
+.ind_status_container ._H3 {
+    margin: 50px 0 10px;
+}
+
+.ind_status_container ul {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.ind_status_container ul li {
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0px 7.68px 8.96px 0px #0D194214;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 24%;
+    gap: 20px;
+}
+
+.ind_status_container ul li h4 {
+    text-align: center;
+    font-family: var(--ff-primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ind_status_container ul li p {
+    text-align: center;
+    font-family: var(--ff-secondary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ind_status_container .btn {
+    margin: 0 auto;
+    display: block;
+}
+
+/* ----- */
+.ind_help_section {
+    padding: 80px 0 0 0;
+}
+
+.ind_help_section .busin_grow_container {
+    align-items: start;
+}
+
+.ind_help_section .busin_grow_container div:has(.list) {
+    padding-top: 30px;
+}
+
+.ind_help_section ._H2 {
+    margin-bottom: 30px;
+}
+
+.ind_help_section .btns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1000px) {
+    .ind_status_container ul {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .ind_status_container ul li {
+        width: 48%;
+    }
+}
+
+@media (max-width:800px) {
+    .ind_sectors_banner img {
+        display: none;
+    }
+
+    .ind_sectors_banner {
+        padding: 30px 30px 10px 30px;
+    }
+
+    .ind_hero_section .right_img-container,
+    .ind_hero_section .left_img-container {
+        width: 60%;
+    }
+
+    .ind_hero_section .left_cont-container,
+    .ind_hero_section .right_cont-container {
+        width: 100%;
+    }
+
+    .ind_status_section .gradient_1 {
+        left: -200px;
+    }
+
+    .ind_help_section .busin_grow_container div:has(.list) {
+        padding: 0px 0 75px 50px;
+    }
+}
+
+@media (max-width:700px) {
+
+    .ind_hero_section .right_img-container,
+    .ind_hero_section .left_img-container {
+        width: 70%;
+    }
+
+    .ind_help_section .busin_grow_container div:has(.list) {
+        padding: 0px 0 75px 40px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .ind_hero_section .right_img-container,
+    .ind_hero_section .left_img-container {
+        width: 80%;
+    }
+
+    .ind_status_container ul li {
+        width: 100%;
+    }
+
+    .ind_status_section .gradient_1 {
+        left: -50px;
+        height: 1500px;
+        width: 700px;
+    }
+
+    .ind_help_section .busin_grow_container div:has(.list) {
+        padding: 0px 0 75px 30px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .ind_hero_section .right_img-container,
+    .ind_hero_section .left_img-container {
+        width: 90%;
+    }
+
+    .ind_help_section .busin_grow_container div:has(.list) {
+        padding: 0px 0 75px 20px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .ind_hero_section .right_img-container,
+    .ind_hero_section .left_img-container {
+        width: 100%;
+    }
+
+    .ind_help_section .busin_grow_container div:has(.list) {
+        padding: 0px 0 75px 10px;
+    }
 }

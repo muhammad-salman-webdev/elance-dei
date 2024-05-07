@@ -17,6 +17,7 @@
   --l-green: #dce8ba;
   /* Violet Variations */
   --violet: #623fab;
+  --violet-2: #6f1ba6;
   --l-violet: #e0d1ff;
   /* Font Families Variations */
   --ff-primary: "ClashDisplay-Variable", sans-serif;
@@ -670,6 +671,15 @@ footer>.footer_calendar p {
       white 30% 70%,
       #f8f2ef 85% 100%);
   overflow: hidden;
+}
+
+.client_logos_section.logos_section_title {
+  background: #ffffff;
+  padding: 40px 0 20px;
+}
+
+.client_logos_section.logos_section_title ._H2 {
+  text-align: center;
 }
 
 .client_logos_swiper {
