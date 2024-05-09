@@ -189,6 +189,12 @@ html {
   margin: 0 auto;
 }
 
+._center_content_h {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ########################### */
 /* Regular Classes and Styling */
 /* ########################### */
