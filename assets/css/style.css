@@ -335,6 +335,7 @@ header .header-logo img {
 .nav_btns .lang_btn {
   cursor: pointer;
   transition: all 0.3s ease;
+  color: var(--violet-2);
 }
 
 /* Responsive Menu Button for small screens */

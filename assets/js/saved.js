@@ -38,8 +38,40 @@ const defaultImageFolder = "eng_images";
 const newImageFolder = "fr_images";
 
 const changeLangBtn = document.getElementById("change_lang_btn");
+let lang = changeLangBtn.getAttribute("prefferedLang");
 
-function changeLang() {
+changeLangBtn.addEventListener("click", langBtnClicked);
+
+// Checking and Setting the Language Variable in Browser Local Storage
+function checkingAndSettingLangInLocalStorage() {
+  if (localStorage.getItem("lang") === null) {
+    localStorage.setItem("lang", lang);
+  } else {
+    lang = localStorage.getItem("lang");
+  }
+}
+checkingAndSettingLangInLocalStorage();
+
+if (lang == "fr") {
+  changeLangBtn.innerText = "EN";
+  changeContentLang();
+}
+
+// Default Runner
+function langBtnClicked() {
+  if (lang === "eng") {
+    changeLangBtn.innerText = "EN";
+    lang = "fr";
+  } else {
+    changeLangBtn.innerText = "FR";
+    lang = "eng";
+  }
+  menuBtn.classList.remove("active");
+  changeContentLang();
+  localStorage.setItem("lang", lang);
+}
+
+function changeContentLang() {
   // Changing the text of Elements
   const elems = document.querySelectorAll("[fr-lang]");
   elems.forEach((elem) => {
@@ -52,11 +84,10 @@ function changeLang() {
   const images = document.querySelectorAll("img[change-image-lang]");
   images.forEach((image) => {
     const curURL = image.src;
-    image.src = curURL.split(defaultImageFolder).join(newImageFolder);
+    if (curURL.includes(defaultImageFolder)) {
+      image.src = curURL.split(defaultImageFolder).join(newImageFolder);
+    } else {
+      image.src = curURL.split(newImageFolder).join(defaultImageFolder);
+    }
   });
-  // Changing the Lang Btn text
-  changeLangBtn.innerText = "EN";
 }
-
-const urlPath = window.location.pathname;
-if (urlPath.includes("/fr")) changeLang();
