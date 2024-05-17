@@ -224,13 +224,11 @@ header .header-logo img {
 .navbar_main {
   display: flex;
   align-items: center;
-  gap: 60px;
-  gap: 30px;
+  gap: 50px;
 }
 
 .navbar>ul {
   display: flex;
-  gap: 30px;
   gap: 20px;
 }
 
@@ -588,7 +586,6 @@ footer>.footer_calendar p {
 .busin_grow_section {
   padding: 50px 0;
   background: var(--cream);
-  /* background-color: red; */
   overflow: hidden;
 }
 
@@ -678,10 +675,12 @@ footer>.footer_calendar p {
 
 /* Marquee Section [ Home Page | Section # 04 ] */
 .client_logos_section {
-  background: linear-gradient(to bottom,
+  /* Gradient Background */
+  /* background: linear-gradient(to bottom,
       #f8f2ef 0% 15%,
       white 30% 70%,
-      #f8f2ef 85% 100%);
+      #f8f2ef 85% 100%); */
+  background: white;
   overflow: hidden;
 }
 
@@ -1044,10 +1043,12 @@ footer>.footer_calendar p {
   color: white;
   margin: 30px 0 0px;
   position: relative;
+  transition: all .3s ease;
 }
 
 .banner_container ._context a:hover {
-  background: white
+  background: white;
+  color: var(--d-blue);
 }
 
 .banner_container ._context h3,

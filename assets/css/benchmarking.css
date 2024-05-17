@@ -79,6 +79,10 @@
         height: 3000px;
         left: 200px;
     }
+
+    .section_row.move-img-sm {
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width: 500px) {

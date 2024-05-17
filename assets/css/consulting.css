@@ -173,6 +173,8 @@
     height: 160px;
     padding: 20px 20px;
     position: relative;
+    /* Later Added CSS */
+    justify-content: center;
 }
 
 .our_process-container ._process_steps li p {
@@ -195,13 +197,24 @@
     /* user-select: none; */
     opacity: 0;
     transition: all .4s ease;
+    cursor: default;
+    /* Later Added CSS */
+    top: unset;
+    /* transform: scale(0); */
 }
 
 @media (min-width:800px) {
+    .our_process-container ._process_steps li p {
+        transform: scale(0);
+    }
+
     .our_process-container ._process_steps li:hover p {
         z-index: 2;
         top: 110%;
         opacity: 1;
+        /* Later Added CSS */
+        top: unset;
+        transform: scale(1);
     }
 }
 

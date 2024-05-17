@@ -3,6 +3,7 @@ menuBtn.addEventListener("click", () => {
   menuBtn.classList.toggle("active");
 });
 
+// Nav Items with Menu list
 const menuItems = document.querySelectorAll(
   ".navbar_main > .navbar > ul > li:has(ul)"
 );
@@ -35,7 +36,6 @@ function setHeightOfSubMenu(menuItem) {
 }
 
 // Toggling the Language
-
 const defaultImageFolder = "eng_images";
 const newImageFolder = "fr_images";
 
