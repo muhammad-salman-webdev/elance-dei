@@ -176,10 +176,12 @@
     min-height: 0px;
   }
 
+  .navbar>ul>li>a,
   .navbar>ul>li>div {
     border-bottom: 1px solid #cbd7ff;
   }
 
+  .navbar>ul>li>a,
   .navbar>ul>li>div {
     justify-content: space-between;
     padding: 0 20px;

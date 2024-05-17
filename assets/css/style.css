@@ -238,7 +238,8 @@ header .header-logo img {
   position: relative;
 }
 
-.navbar>ul>li>a {
+.navbar>ul>li>a,
+.navbar>ul>li>div {
   height: 80px;
   display: flex;
   align-items: center;
@@ -246,6 +247,10 @@ header .header-logo img {
   font-size: 18px;
   gap: 2px;
   font-weight: 600;
+}
+
+.navbar>ul>li>a,
+.navbar>ul>li>div>a {
   color: black;
   padding: 0 3px;
   transition: all 0.2s linear;
@@ -288,7 +293,7 @@ header .header-logo img {
 
 @media screen and (min-width: 1000px) {
 
-  .navbar>ul>li:hover>a,
+  .navbar>ul>li:hover>div>a,
   .navbar>ul>li>ul>li>a:hover {
     color: var(--violet);
   }
@@ -305,6 +310,7 @@ header .header-logo img {
 }
 
 .navbar>ul>li>a:hover,
+.navbar>ul>li>a.active,
 .navbar>ul>li:has(ul > li > a.active) div a,
 .navbar>ul>li:has(ul > li > a.active) div i,
 .navbar>ul>li>div:has(a.active) a,

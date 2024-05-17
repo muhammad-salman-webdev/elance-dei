@@ -3,7 +3,9 @@ menuBtn.addEventListener("click", () => {
   menuBtn.classList.toggle("active");
 });
 
-const menuItems = document.querySelectorAll(".navbar_main > .navbar > ul > li");
+const menuItems = document.querySelectorAll(
+  ".navbar_main > .navbar > ul > li:has(ul)"
+);
 menuItems.forEach((menuItem, i) => {
   // Click to open the sub menu on mobile screen
   const trigger = menuItem.querySelector("div");
@@ -48,12 +50,14 @@ function changeLang() {
     elem.textContent = newText;
     elem.setAttribute("fr-lang", curText);
   });
+
   // Changing the Image URL
   const images = document.querySelectorAll("img[change-image-lang]");
   images.forEach((image) => {
     const curURL = image.src;
     image.src = curURL.split(defaultImageFolder).join(newImageFolder);
   });
+
   // Changing the Lang Btn text
   changeLangBtn.innerText = "EN";
 }
