@@ -1,0 +1,32 @@
+.blog-details-container {
+    position: relative;
+    padding: 50px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blog-details-container .blog_d-img img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 7px 0px #64646440;
+}
+
+.blog-details-container .blog_details {
+    margin: 30px 0;
+}
+
+.blog-details-container .blog_details p {
+    margin: 10px 0 30px;
+}
+
+.blog-details-container .blog_details ._H3 {
+    margin: 20px 0 0;
+}
+
+@media (max-width:600px) {
+    .blog-details-container {
+        padding: 0;
+        width: 100%;
+    }
+}
