@@ -120,3 +120,4 @@ This project is licensed under the **MIT License** – Free to use and modify.
 **Muhammad Salman** – Frontend Developer  
 📧 [muhammadsalman.webdev@gmail.com](mailto:muhammadsalman.webdev@gmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/muhammad-salman-webdev) | [Portfolio](https://muhammadsalmanwebdev.com/) | [GitHub](https://github.com/muhammad-salman-webdev)
+
