@@ -1,52 +1,34 @@
-# Elance - Business Website
+# 🌍 ElanceDEI - High-Performance Business Website
 
-## Overview
+## 🚀 Overview
 
-Elance is a business website designed to provide information about the company's DEI (Diversity, Equity, and Inclusion) consulting, training, and data analysis services. The website features a responsive layout, multiple interactive sections, and engaging user experience features.
+[ElanceDEI](http://elancedei.com) is a **modern, responsive, and high-performance** website developed for a **DEI-focused marketing company**. As the **lead frontend developer**, I implemented a **pixel-perfect UI**, optimized performance, and ensured seamless responsiveness across all devices.
 
-## Features
+This project showcases my expertise in **HTML, CSS, JavaScript**, and performance-focused development. It also demonstrates how I convert **Figma designs into fully functional web pages** with **best practices for SEO, accessibility, and speed optimization**.
 
-- **Responsive Design:** Optimized for desktops, tablets, and mobile devices.
-- **Navigation Menu:** Includes links to Home, Contact, Use Cases, and Resources.
-- **Hero Section:** Engaging call-to-action content and visuals.
-- **Business Growth Section:** Information on how DEI initiatives improve business performance.
-- **Client Reviews Section:** Testimonials from satisfied clients.
-- **Contact Form:** Easy way for users to get in touch with the company.
-- **Animation Effects:** Smooth animations powered by Swiper.js for interactive elements.
+## 🔥 Key Features
 
-## Technologies Used
+- ✅ **Pixel-Perfect UI** – Accurately converted Figma designs into clean, maintainable code.
+- ⚡ **High-Performance Web Development** – Optimized HTML, CSS, and JavaScript for fast loading.
+- 📱 **Fully Responsive & Cross-Browser Compatible** – Works flawlessly on all devices.
+- 🎨 **Custom CSS Gradients & Animations** – Designed an interactive and engaging UI.
+- 🎠 **Swiper.js Integration** – Smooth, touch-friendly carousels for enhanced UX.
+- 📈 **SEO-Optimized & Accessibility-Friendly** – Improved rankings and user experience.
+- 🔗 **Future-Ready for WordPress Backend** – Structured for **WordPress + ACF integration**.
 
-- **HTML5** - Structure of the website.
-- **CSS3** - Styling and responsive design.
-- **JavaScript (ES6+)** - Interactive elements.
-- **Swiper.js** - Slider functionality.
-- **FontAwesome** - Icon library.
+## 💻 Technologies Used
 
-## Installation
+- **HTML5** – Semantic, SEO-friendly markup.
+- **CSS3** – Custom styles, flexbox, grid, responsive design.
+- **JavaScript (ES6+)** – Interactive elements and dynamic content.
+- **Swiper.js** – Slider/carousel functionality.
+- **FontAwesome** – Icon library for better UI design.
+- **WordPress + ACF (Backend - Not Included in this Repo)** – Future backend integration.
 
-To set up the project locally:
+## 📂 File Structure
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/elance-website.git
-   ```
-
-2. Navigate to the project folder:
-
-   ```bash
-   cd elance-website
-   ```
-
-3. Open `index.html` in your browser:
-   ```bash
-   open index.html
-   ```
-
-## File Structure
-
-```plaintext
-elance-website/
+```
+elance-dei/
 ├── assets/
 │   ├── css/
 │   │   ├── about-us.css
@@ -88,26 +70,53 @@ elance-website/
 └── README.md
 ```
 
-## Usage
+## ⚡ Installation & Setup
 
-- Navigate through the website to explore services and resources.
-- Learn about DEI benefits for businesses.
-- Contact the Elance team for consultations.
+To run the project locally:
 
-## Future Improvements
+1. Clone the repository:
 
-- Adding backend functionality for form submissions.
-- Enhancing SEO and performance optimizations.
-- Incorporating multi-language support.
+   ```bash
+   git clone https://github.com/muhammad-salman-webdev/elance-dei.git
+   ```
 
-## Contributing
+2. Navigate to the project folder:
 
-If you would like to contribute to this project, please create a pull request with detailed changes.
+   ```bash
+   cd elance-dei
+   ```
 
-## License
+3. Open `index.html` in your browser:
 
-This project is licensed under the MIT License.
+   ```bash
+   open index.html
+   ```
 
-## Contact
+## 🎯 Why This Project Matters?
 
-For inquiries, please contact: [muhammadsalman.webdev@gmail.com](mailto:muhammadsalman.webdev@gmail.com)
+This project highlights my ability to:  
+✅ Develop **clean, maintainable, and scalable frontend code**.  
+✅ Build **performance-driven, responsive, and SEO-friendly websites**.  
+✅ Work **collaboratively** with backend developers integrating WordPress & ACF.  
+✅ Follow **modern best practices for frontend development**.
+
+## 🌱 Future Enhancements
+
+- 🔗 **Backend Integration** – WordPress & ACF dynamic content management.
+- 🏆 **Advanced SEO Optimization** – Structured metadata, schema markup.
+- 🌙 **Dark Mode Toggle** – UI/UX enhancement for accessibility.
+- 🌍 **Multi-Language Support** – Expanding the reach globally.
+
+## 🤝 Contributing
+
+Want to contribute? Feel free to **fork this repository**, open an issue, or submit a pull request.
+
+## 🐟 License
+
+This project is licensed under the **MIT License** – Free to use and modify.
+
+## 📨 Contact Me
+
+**Muhammad Salman** – Frontend Developer  
+📧 [muhammadsalman.webdev@gmail.com](mailto:muhammadsalman.webdev@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/muhammad-salman-webdev) | [Portfolio](https://muhammadsalmanwebdev.com/) | [GitHub](https://github.com/muhammad-salman-webdev)
